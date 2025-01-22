@@ -1,11 +1,8 @@
 {
-    "python.pythonPath": "${workspaceFolder}/venv/bin/python",
-    "python.linting.enabled": true,
-    "python.linting.pylintEnabled": true,
+    "remote.WSL.useShellEnvironment": true,
+    "remote.WSL.fileWatcher.polling": true,
+    "python.defaultInterpreterPath": "${workspaceFolder}/venv/Scripts/python",
     "editor.formatOnSave": true,
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
     "terminal.integrated.defaultProfile.linux": "bash"
 }
-          
-      
-  

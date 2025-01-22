@@ -1,0 +1,33 @@
+{
+    "version": "0",
+    "id": "12345678-1234-5678-abcd-1234567890ab",
+    "detail-type": "CloudWatch Alarm State Change",
+    "source": "aws.cloudwatch",
+    "account": "123456789012",
+    "time": "2024-10-07T12:00:00Z",
+    "region": "us-east-1",
+    "resources": [
+        "arn:aws:cloudwatch:us-east-1:123456789012:alarm:HighCPUAlarm"
+    ],
+    "detail": {
+        "alarmName": "HighCPUAlarm",
+        "state": {
+            "value": "ALARM"
+        },
+        "configuration": {
+            "metrics": [
+                {
+                    "metricStat": {
+                        "metric": {
+                            "namespace": "AWS/EC2",
+                            "metricName": "CPUUtilization",
+                            "dimensions": {
+                                "InstanceId": "i-03096ae760f3930c4"
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
