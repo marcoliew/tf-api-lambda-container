@@ -1,5 +1,5 @@
 {
     "python.terminal.activateEnvInCurrentTerminal": true,
-    "python.defaultInterpreterPath": "D:\\workfolder\\tf-api-lambda-container\\.venv\\Scripts\\python.exe",
-    "terminal.integrated.defaultProfile.windows": "PowerShell"
+    "python.defaultInterpreterPath": "/Users/marco.liao/projects/tf-api-lambda-container/.venv/bin/python",
+    "terminal.integrated.defaultProfile.linux": "zsh"
 }
