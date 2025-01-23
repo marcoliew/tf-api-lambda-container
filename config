@@ -1,0 +1,25 @@
+[sso-session personal-session]
+sso_start_url = https://xenium.awsapps.com/start
+sso_region = ap-southeast-2
+sso_registration_scopes = sso:account:access
+
+[default]
+sso_session = personal-session
+sso_start_url = https://xenium.awsapps.com/start
+sso_region = ap-southeast-2
+sso_registration_scopes = sso:account:access
+sso_account_id = 058264095432
+sso_role_name = SSO_AdministratorAccess
+region = ap-southeast-2
+output = json
+
+
+[USYD]
+sso_session = my-session
+sso_start_url = https://usydstaging.awsapps.com/start
+sso_region = ap-southeast-2
+sso_registration_scopes = sso:account:access
+sso_account_id = 172582138886
+sso_role_name = USYD_ROOT_ADMINS
+region = ap-southeast-2
+output = json
