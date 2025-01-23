@@ -1,8 +1,5 @@
 {
-    "remote.WSL.useShellEnvironment": true,
-    "remote.WSL.fileWatcher.polling": true,
-    "python.defaultInterpreterPath": "${workspaceFolder}/venv/Scripts/python",
-    "editor.formatOnSave": true,
-    "terminal.integrated.defaultProfile.windows": "Command Prompt",
-    "terminal.integrated.defaultProfile.linux": "bash"
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.defaultInterpreterPath": "D:\\workfolder\\tf-api-lambda-container\\.venv\\Scripts\\python.exe",
+    "terminal.integrated.defaultProfile.windows": "PowerShell"
 }
